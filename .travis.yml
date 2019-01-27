@@ -14,7 +14,7 @@ python:
 - pypy3.5
 
 install:
-- pip install --upgrade coveralls flake8 tox
+- pip install --upgrade coveralls flake8 pyflakes tox
 
 script:
 - tox
